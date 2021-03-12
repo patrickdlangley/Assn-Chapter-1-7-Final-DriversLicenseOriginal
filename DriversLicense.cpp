@@ -18,7 +18,7 @@ int main()
 {
 	const int SIZE = 20;
 	const char EXAM_ANSWERS[SIZE] = { 'A', 'D', 'B', 'B', 'C', 'B', 'A', 'B', 'C', 'D', 'A', 'C', 'D', 'B', 'D', 'C', 'C', 'A', 'D', 'B' };
-	char takerAnswers[SIZE];
+	char takerAnswers[SIZE]; // array for exam taker's answers
 	string textFile;
 	int i, correctAnswers, wrongAnswers;
 
